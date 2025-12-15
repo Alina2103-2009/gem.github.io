@@ -3,13 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <title>Мой блог</title>
-  <!-- Подключение файла стилей -->
   <link type="text/css" rel="stylesheet" href="style.css"/>
+  <style>
+    /* Простые улучшения для отображения */
+    body { max-width: 800px; margin: 2em auto; padding: 0 1em; font-family: Arial, sans-serif; line-height: 1.6; }
+    h2 { border-bottom: 2px solid #eee; padding-bottom: 0.3em; }
+    video { max-width: 100%; height: auto; margin: 1em 0; }
+    .poem { font-style: italic; margin: 1.5em 0; padding-left: 1em; border-left: 3px solid #ccc; }
+    .odt-link { display: inline-block; margin-top: 0.5em; }
+  </style>
 </head>
 <body>
+
   <h2>15 декабря, 2025</h2>
-  <img src="Icons/confetti-ball.png" alt="Новый год">
-  Поздравление с Наступающим 2026 годом читайте <a href="Congratulations2026.html">здесь</a>.
+  <img src="Icons/confetti-ball.png" alt="Новый год" style="height: 48px; vertical-align: middle;">
+  
+  <p>Поздравление с Наступающим 2026 годом читайте <a href="Congratulations2026.html">здесь</a>.</p>
+
+  <!-- Видео -->
+  <h3>Видеопоздравление</h3>
+  <video controls>
+    <source src="/home/user/2025/101C/Шрифт/newTree.mp4" type="video/mp4">
+    Ваш браузер не поддерживает воспроизведение видео.
+  </video>
+
+  <!-- RTF-текст: "Поздравление с рождеством / Колядка" -->
+  <h3>Поздравление с рождеством</h3>
+  <div class="poem">
+    <p><strong>Колядка</strong></p>
+    <p>В дом идёт звезда с небес,<br>
+    Ангел шлёт вам чудо, свет и честь.<br>
+    Пусть в избе горит огонь,<br>
+    А в сердцах — любовь и честь о Нём.</p>
+    <p>Пуст в избе горит огонь,<br>
+    А в сердцах — любовь и честь о Нём.</p>
+    <p><em>/home/user/2025/101C/Шрифт/newTree.mp4</em></p>
+  </div>
+
+  <!-- Ссылка на ODT-файл -->
+  <p class="odt-link">
+    📄 <a href="kolyadka.odt" download>Скачать колядку в формате ODT</a>
+  </p>
+
+  <hr>
 
   <h2>15 октября, 2025</h2>
   <p>
@@ -22,6 +58,10 @@
     Оставляю в прошлом скучную неинтересную локальную файловую систему ради Всемирной паутины.
   </p>
 
-  <p>Иконки: <a target="_blank" href="https://icons8.com/icon/yHeF9urVx2aM/confetti-ball">Новый год</a> иконка от <a target="_blank" href="https://icons8.com">Icons8</a></p>
+  <p>Иконки: 
+    <a target="_blank" href="https://icons8.com/icon/yHeF9urVx2aM/confetti-ball">Новый год</a> иконка от 
+    <a target="_blank" href="https://icons8.com">Icons8</a>
+  </p>
+
 </body>
 </html>
