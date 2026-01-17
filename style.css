@@ -1,9 +1,27 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <title>Нежно-розовый дизайн</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-</html>
+body {
+    background-color: #FDEEF4; /* Нежно-розовый фон */
+    color: #333; /* Темно-серый цвет текста */
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #E88DAB; /* Ярко-розовые заголовки */
+}
+
+a {
+    color: #FFB7C5; /* Розовая ссылка */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E88DAB; /* Изменение цвета ссылок при наведении */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
